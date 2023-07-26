@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Generator</title>
+</head>
+<body style="background: rgb(252, 250, 250);">
+  <div class="login">
+   <h1 style="text-align:center">Table Generator</h1>
+    <form action="{{ url_for('predict')}}" method="post">
+      <label for="data" colo>data:  </label>
+      <input type="text" name="data" placeholder="data" required="required">
+      <br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">Table</button>
+    </form>
+   </div>
+   {% for text in table_text %}
+    <div>{{text}}</div>
+{% endfor %}
+</body>
