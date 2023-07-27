@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Selection</title>
+</head>
+<body>
+  <h1>Model Selection</h1>
+  <form action="/process_request" method="post">
+    <label for="model">Select a model:</label>
+    <select id="model" name="model" required>
+      <option value="face_detection">Face Detection Model</option>
+      <option value="car_detection">Car Detection Model</option>
+      <option value="shoe_detection">Shoe Detection Model</option>
+      <option value="cloth_detection">Cloth Detection Model</option>
+      <option value="signal_detection">Signal Detection Model</option>
+      <option value="water_level_detection">Water Level Detection Model</option>
+      <option value="missile_detection">Missile Detection Model</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Process Request">  
+</form>
+
+</body>
+</html>

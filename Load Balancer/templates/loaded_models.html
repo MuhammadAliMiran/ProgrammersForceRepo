@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loaded Models</title>
+</head>
+<body>
+  <h1>Loaded Models</h1>
+  <p>Number of Loaded Models: {{ count }}</p>
+  <ul>
+    {% for model in models %}
+      <li>
+        {{ model }} (Requests: {{ counts[model] }})
+      </li>
+    {% endfor %}
+  </ul>
+  <br>
+  <a href="/">Back to Home</a>
+</body>
+</html>
