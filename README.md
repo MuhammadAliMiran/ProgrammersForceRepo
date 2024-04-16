@@ -13,8 +13,4 @@ This repository contains various tasks and file uploads related to engineering, 
 - **RNN + LSTM.ipynb**: A Jupyter notebook for practicing Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) models.
 - **Sentiment_bert_transformer.ipynb**: A Jupyter notebook for practicing sentiment analysis using BERT transformer.
 - **Spam_or_ham_practice.ipynb**: A Jupyter notebook for practicing spam or ham detection.
-- **Unsupervised_learning.ipynb**: A Jupyter notebook for practicing unsupervised learning (not yet added).
-
-## Additional Tasks
-
-- Added files via upload: 
+- **Unsupervised_learning.ipynb**: A Jupyter notebook for practicing unsupervised learning.
